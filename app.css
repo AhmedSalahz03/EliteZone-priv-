@@ -13,6 +13,7 @@
     display: flex;
     align-items: center;
     background-color: rgb(255, 255, 255);
+    justify-content: center;
     margin-top: 0;
   }
   .Home{
@@ -91,11 +92,7 @@
     margin-top: 40px;
     margin-bottom: 100px;
     background-color: antiquewhite;
-    animation: fadeIn 3s;
-    -webkit-animation: fadeIn 3s;
-    -moz-animation: fadeIn 3s;
-    -o-animation: fadeIn 3s;
-    -ms-animation: fadeIn 3s;
+
   
   }
   .text-1{
@@ -108,20 +105,23 @@
     display: inline-block;
     vertical-align: middle;
     margin-left: 30px;
-    
+
+ 
   
    
   }
   .photo-1{
   display: inline-block;
   border-radius: 5px;
+
+ 
   }
   
   .logo{
-    display: inline-block;
-    margin-top: 20px;
-    margin-left: 10px;
+    width: 110px;
     margin-bottom: 20px;
+    
+  
   }
   @keyframes fadeIn {
     0% { opacity: 0; }
@@ -162,11 +162,7 @@
     margin-bottom: 100px;
     background-color: antiquewhite;
   
-    animation: fadeIn 3s;
-    -webkit-animation: fadeIn 3s;
-    -moz-animation: fadeIn 3s;
-    -o-animation: fadeIn 3s;
-    -ms-animation: fadeIn 3s;
+    
   }
   .text-2{
     color: darkcyan;
@@ -194,12 +190,6 @@
     margin-top: 40px;
     margin-bottom: 100px;
     background-color: antiquewhite;
-  
-    animation: fadeIn 5s;
-    -webkit-animation: fadeIn 5s;
-    -moz-animation: fadeIn 5s;
-    -o-animation: fadeIn 5s;
-    -ms-animation: fadeIn 5s; 
   }
   .text-3{
     color: darkcyan;
@@ -329,6 +319,7 @@
     width: 100%;
     overflow: hidden;
     position: relative;
+   
     
   }
   .slowFade .slide img {
@@ -373,4 +364,16 @@
     40% {
         opacity: 0;
     }
+  }
+  .animate {
+    opacity: 1;
+    transform: translateY(50px);
+    transition: opacity 1s, transform 1s;
+    transition-delay: 0.3s;
+    
+  }
+  .animate.visible {
+    opacity: 1;
+    transform: translateY(0);
+    filter: none;
   }
