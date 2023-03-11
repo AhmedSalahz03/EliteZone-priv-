@@ -12,3 +12,22 @@ function checkIfInView() {
 }
 
 window.addEventListener('scroll', checkIfInView);
+function isElementInViewport(el) {
+  var rect = el.getBoundingClientRect();
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  );
+}
+
+var scrollAnimations = document.querySelectorAll('.scroll-animation-left');
+
+window.addEventListener('scroll', function() {
+  scrollAnimations.forEach(function(el) {
+    if (isElementInViewport(el)) {
+      el.classList.add('show');
+    }
+  });
+});
