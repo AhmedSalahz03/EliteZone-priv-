@@ -1,0 +1,376 @@
+.page-title{
+    color: rgb(255, 153, 0);
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 240px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+  
+  }
+  .Header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    margin-top: 0;
+  }
+  .Home{
+    color: #143d59;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+  }
+  .Home:hover{
+    color: rgb(255, 119, 0)
+  }
+  
+  .Services{
+    color: #143d59;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  
+  }
+  .Services:hover{
+    color: rgb(255, 119, 0);
+  }
+  .Designs{
+    color: #143d59;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  .Designs:hover{
+    color: rgb(255, 119, 0);
+  }
+  .About-us{
+    color: #143d59;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  .About-us:hover{
+    color: rgb(255, 119, 0);
+  }
+  .Designs:hover{
+    color: rgb(255, 119, 0);
+  }
+  
+  .Header-hr{
+    border:none;
+    height: 20px;
+       width: 100%;
+      height: 50px;
+      margin-top: 10px;
+      border-bottom: 1px solid #1f1209;
+      box-shadow: 0 20px 20px -20px #333;
+    margin: -50px auto 10px; 
+    margin-bottom: 35px;
+  }
+  .block-1{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    background-color: antiquewhite;
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+  
+  }
+  .text-1{
+    color: darkcyan;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    word-spacing: 7px;
+    width: 1000px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+    
+  
+   
+  }
+  .photo-1{
+  display: inline-block;
+  border-radius: 5px;
+  }
+  
+  .logo{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  .drawing{
+    width: 1000px;
+    height: 400px;
+  }
+  .photo-2{
+    border-radius: 5px;
+    width: 800px;
+  }
+  .block-2{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    background-color: antiquewhite;
+  
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+  }
+  .text-2{
+    color: darkcyan;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    word-spacing: 7px;
+    width: 800px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+    margin-right: 50px; 
+  }
+  .filler{
+    display: flex;
+    align-items: center;
+  
+  }
+  .background-draw{
+    width: 400px;
+  }
+  .block-3{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    background-color: antiquewhite;
+  
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s; 
+  }
+  .text-3{
+    color: darkcyan;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    word-spacing: 7px;
+    width: 800px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+    margin-right: 50px; 
+  
+  }
+  .More-About{
+    border: none;
+    background-color: rgb(51, 124, 153);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+    border-radius: 8px;
+  }
+  .More-About:hover{
+    box-shadow: #1f1209;
+    cursor: pointer;
+    background-color: rgb(119, 168, 181);
+  }
+  .interior-drawing{
+    width: 300px;
+    margin-left: 20px;
+  }
+  .photo-3{
+    width: 700px;
+    border-radius: 5px;
+  }
+  body{
+    background-color: rgba(20, 2, 2, 0.562);
+  }
+  .offer-title{
+    display: block;
+    color: darkcyan;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 560;
+    margin-top: 100px;
+    margin-bottom: 70px;
+  }
+  
+  .offer-1{
+    color: darkcyan;
+    margin-right: 50px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .offer-2{
+    color: darkcyan;
+    margin-right: 50px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  
+  }
+  
+  .offer-3{
+    color: darkcyan;
+    margin-right: 50px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .offer-4{
+    color: darkcyan;
+    margin-right: 50px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  :root {
+    --borderWidth: 7px;
+    --height: 24px;
+    --width: 12px;
+    --borderColor: #78b13f;
+  }
+  
+  body {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .check {
+    display: inline-block;
+    transform: rotate(45deg);
+    height: var(--height);
+    width: var(--width);
+    border-bottom: var(--borderWidth) solid var(--borderColor);
+    border-right: var(--borderWidth) solid var(--borderColor);
+  }
+  .checkmark{
+    width: 30px;
+  }
+  .offer-block{
+    display: grid;
+    grid-template-columns: 25px 500px 30px 500px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+  }
+  .Contact{
+    background-color: rgb(2, 108, 108);
+  }
+  .Contact-us{
+    color: rgb(255, 153, 0);
+    font-size: 40px;
+    font-family:'Montserrat', sans-serif;
+    justify-self: left;
+    display: flex;
+  }
+  
+  
+  .slowFade {
+    display: flex;
+    align-items: flex-start;
+    background: #fff;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    
+  }
+  .slowFade .slide img {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    background: #000;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    opacity: 0;
+    transform: scale(1.1) rotate(0deg);
+    -webkit-animation: slowFade 16s infinite;
+            animation: slowFade 16s infinite;
+  }
+  .slowFade .slide:nth-child(3) img {
+    -webkit-animation-delay: 4s;
+            animation-delay: 4s;
+  }
+  .slowFade .slide:nth-child(2) img {
+    -webkit-animation-delay: 8s;
+            animation-delay: 8s;
+  }
+  .slowFade .slide:nth-child(1) img {
+    -webkit-animation-delay: 12s;
+            animation-delay: 12s;
+  }
+  @keyframes slowFade {
+    25% {
+        opacity: 1;
+        transform: scale(1) rotate(0);
+    }
+    40% {
+        opacity: 0;
+    }
+  }
+  @-webkit-keyframes slowFade {
+    25% {
+        opacity: 1;
+        transform: scale(1) rotate(0);
+    }
+    40% {
+        opacity: 0;
+    }
+  }
