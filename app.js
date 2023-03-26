@@ -31,3 +31,19 @@ window.addEventListener('scroll', function() {
     }
   });
 });
+
+var form = document.getElementById("myForm");
+
+form.addEventListener("submit", function(event) {
+  var name = document.getElementById("name");
+  var name = document.getElementById("mobile");
+  var name = document.getElementById("email");
+  var name = document.getElementById("time");
+
+  if (name.value == "" || email.value == "" || mobile.value == "" || time.value == "") {
+    event.preventDefault();
+    alert("Please fill out all required fields.");
+  }
+  else
+    alert("form submitted")
+});

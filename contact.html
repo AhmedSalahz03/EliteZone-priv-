@@ -34,6 +34,8 @@
     <link rel="image" href="pictures/instgram-logo.png">
     <link rel="image" href="pictures/whatsapp-logo.png">
     <link rel="shortcut icon" href="pictures/logojpg-removebg-previewpng.png" type="image/x-icon">
+    <link rel="image" href="contact-us-graphic-1670327100.jpg">
+    <link rel="image" href="tok2.jpg">
 
     <script defer src="app.js"></script>
 
@@ -83,13 +85,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="took.jpg" class="d-block w-100" alt="img">
-            <div class="carousel-caption d-none d-md-block">
-              <h1 class="my-5 animate">Experience stunning designs and innovative solutions with our expert architects</h1>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="tok.webp" class="d-block w-100" alt="img">
+            <img src="contact-us-graphic-1670327100.jpg" class="d-block w-100" alt="img">
             <div class="carousel-caption d-none d-md-block">
             </div>
           </div>
@@ -104,22 +100,31 @@
           
         </button>
       </div>
+      <div class="contacts container py-2">Contacts:</div>
+      <div class="row contact-info input-group-text container-fluid">
+        <div class="col-md-6 col-sm-6">elitezone.eg@gmail.com</div>
+        <div class="col-md-3 col-sm-3">+201003251150</div>
+        <div class="col-md-3 col-sm-3">+201110556617</div>
+      </div>
+
+      <!--FORM-->
+
       <div class="size">
-        <form action="/action_page.php">
-      <div class="input-group mb-3">
-        <span class="input-group-text" id="inputGroup-sizing-default"> Name</span>
+        <form id="myForm">
+      <div class="input-group mb-3 container-fluid">
+        <span class="input-group-text" class="inputGroup-sizing-default" id="name"> Name</span>
         <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required >
       </div>
-      <div class="input-group mb-3">
-        <span class="input-group-text" id="inputGroup-sizing-default">Mobile</span>
+      <div class="input-group mb-3 container-sm">
+        <span class="input-group-text" class="inputGroup-sizing-default" id="mobile">Mobile</span>
         <input type="text" class="form-control" aria-label="Sizing example input " aria-describedby="inputGroup-sizing-default" required>
       </div>
-      <div class="input-group mb-3">
-        <span class="input-group-text" id="inputGroup-sizing-default"  >Email</span>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required placeholder="aa@bb">
+      <div class="input-group mb-3 container-sm">
+        <span class="input-group-text" class="inputGroup-sizing-default" id="email">Email</span>
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required placeholder="example@bb">
       </div>
-      <div class="input-group mb-3">
-        <span class="input-group-text" id="inputGroup-sizing-default" >Best day to call</span>
+      <div class="input-group mb-3 container-sm">
+        <span class="input-group-text" class="inputGroup-sizing-default" id="time">Best day to call</span>
         <input type="text" class="form-control" aria-label="izing example input " aria-describedby="inputGroup-sizing-default"  >
       
     </div>
@@ -129,8 +134,8 @@
       <br><br>
       
       
-      <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-        <option selected > <span class="oo">type Of Services Needed</span></option>
+      <select class="form-select form-select-lg mb-3 container pe-5" aria-label=".form-select-lg example">
+        <option selected > <span class="oo">Type of Services needed</span></option>
         <option value="Residental">Residental</option>
         <option value="Commerical">Commerical</option>
         <option value="Architecture&Landscape">Architecture&Landscape</option>
@@ -140,7 +145,7 @@
       </select>
       
       <br><br><br>
-      <input class="touch"   type="submit" >
+      <input class="touch container-sm" type="submit" id="myButton">
       </form>
       </div>
         <br><br>
