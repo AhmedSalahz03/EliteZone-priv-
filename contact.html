@@ -38,6 +38,8 @@
     <link rel="image" href="pictures/tok2.jpg">
 
     <script defer src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 
     <title>EliteZone-contact us </title>
 
@@ -110,22 +112,26 @@
       <!--FORM-->
 
       <div class="size">
-        <form id="myForm">
+        <form id="myForm" action="comments.php" method="POST" onsubmit="return submitForm();">
+          <div class="input-group mb-3 container-fluid">
+            <span class="input-group-text" class="inputGroup-sizing-default" id="name"> Comment</span>
+            <input type="text" name="comment" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required >
+          </div>
       <div class="input-group mb-3 container-fluid">
         <span class="input-group-text" class="inputGroup-sizing-default" id="name"> Name</span>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required >
+        <input type="text" name="name" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required >
       </div>
       <div class="input-group mb-3 container-sm">
         <span class="input-group-text" class="inputGroup-sizing-default" id="mobile">Mobile</span>
-        <input type="text" class="form-control" aria-label="Sizing example input " aria-describedby="inputGroup-sizing-default" required>
+        <input type="text" name="mobile" class="form-control" aria-label="Sizing example input " aria-describedby="inputGroup-sizing-default" required>
       </div>
       <div class="input-group mb-3 container-sm">
         <span class="input-group-text" class="inputGroup-sizing-default" id="email">Email</span>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required placeholder="example@bb">
+        <input type="text" name="email" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required placeholder="example@bb">
       </div>
       <div class="input-group mb-3 container-sm">
         <span class="input-group-text" class="inputGroup-sizing-default" id="time">Best day to call</span>
-        <input type="text" class="form-control" aria-label="izing example input " aria-describedby="inputGroup-sizing-default"  >
+        <input type="text" name="time" class="form-control" aria-label="izing example input " aria-describedby="inputGroup-sizing-default"  >
       
     </div>
       
@@ -134,15 +140,7 @@
       <br><br>
       
       
-      <select class="form-select form-select-lg mb-3 container pe-5" aria-label=".form-select-lg example">
-        <option selected > <span class="oo">Type of Services needed</span></option>
-        <option value="Residental">Residental</option>
-        <option value="Commerical">Commerical</option>
-        <option value="Architecture&Landscape">Architecture&Landscape</option>
-        <option value="Adminstrave">Adminstrave</option>
-        <option value="Other....">Other.....</option>
-        
-      </select>
+      
       
       <br><br><br>
       <input class="touch container-sm" type="submit" id="myButton">
@@ -154,7 +152,7 @@
 
     <div class="container-fluid">
         <div class="row justify-content-between footer py-2">
-          <div class="col-md-9 col-4 footer-title">EliteZone</div>
+          <div class="col-md-9 col-4 footer-title"><a id="admin" href="login.html" style="color: white; text-decoration: none;">EliteZone</a></div>
           <div class="col-md-1 col-2"><a href="https://www.facebook.com/ELITEZONEE.EG" target="_blank"><img class="facebook-logo" src="pictures/facebook-logo.png" alt="facebook"></a></div>
           <div class="col-md-1 col-2"><a href="https://www.instagram.com/elitezone.eg/" target="_blank"><img class="instagram-logo" src="pictures/instgram-logo.png" alt="img"></a></div>
           <div class="col-md-1 col-2"><a href="https://wa.me/201003251150" target="_blank"><img class="whatsapp-logo" src="pictures/whatsapp-logo.png" alt="img"></a></div>
