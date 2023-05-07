@@ -1,0 +1,45 @@
+.size{
+  width: 60%;
+  margin: 90px;
+  padding:auto;
+
+}
+.contacts{
+  font-size: 29px;
+  color: darkkhaki;
+  font-family: 'Montserrat', sans-serif;
+}
+.contact-info{
+  background-color: beige;
+
+}
+.input-group-text{
+
+  color: darkcyan;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+.touch{
+  text-align: center;
+  border: none;
+  background-color: rgb(51, 124, 153);
+  color: white;
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 150px;
+  transition: opacity 0.4s;
+  height: 50px;
+}
+.touch:hover{
+  box-shadow: #1f1209;
+  cursor: pointer;
+  opacity: 0.6;
+  }
+.info{
+  width: 60%;
+  margin: 90px;
+  padding:auto;
+}

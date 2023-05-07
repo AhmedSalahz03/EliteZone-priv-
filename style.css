@@ -1,0 +1,194 @@
+.animate {
+    opacity: 1;
+    transform: translateY(50px);
+    transition: opacity 1s, transform 1s;
+    transition-delay: 0.3s; 
+  }
+
+  .animate.visible {
+    opacity: 1;
+    transform: translateY(0);
+    filter: none;
+  }
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+}
+.title {
+    font-size: 40px;
+    color: rgb(158, 169, 11); 
+    font-weight: 550;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+.block-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    border-radius: 40px;
+    align-self: center;
+    vertical-align: middle;
+}
+.first-photo {
+    width: 1200px;
+    border-radius: 20px;
+}
+.text-block {
+    color: darkcyan;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+}
+
+.block-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    border-radius: 40px;
+    align-self: center;
+    vertical-align: middle;
+}
+.block-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(244, 244, 226);
+    border-radius: 40px;
+    align-self: center;
+    vertical-align: middle;  
+}
+.More-About{
+    border: none;
+    background-color: rgb(51, 124, 153);
+    color: white;
+    font-family: Montserrat, sans-serif;
+    height: 30px;
+    border-radius: 8px;
+    transition: opacity 0.3s;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 5px;
+    
+  }
+
+  .More-About:hover{
+    box-shadow: #1f1209;
+    cursor: pointer;
+    opacity: 0.8;
+  }
+.services-title {
+    font-size: 40px;
+    text-align: center;
+    color: darkcyan;
+    font-family: Montserrat, sans-serif;
+}
+.services-1-title {
+    color: darkkhaki;
+    font-size: 30px;
+    font-family:Montserrat, sans-serif;
+    font-weight: 500;
+}
+.services-1{
+    background-color: beige;
+    border-radius: 30px;
+    display: flex;
+    align-self: center;
+}
+.services-1-text {
+    font-family: Montserrat, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    color: darkcyan;
+    font-weight: 500;
+}
+.services-1-img{
+    border-radius: 10px;
+}
+.motto{
+    font-family: 'Kanit', sans-serif;
+    color: olive;
+    font-weight: 700;
+    word-spacing: 40px;
+}
+  .more{
+    background-color: beige;
+    border-radius: 80px;
+    
+  }
+  .text-more{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+  }
+
+  .touch{
+    text-align: center;
+    border: none;
+    background-color: rgb(51, 124, 153);
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 250px;
+    transition: opacity 0.4s;
+    height: 60px;
+    text-decoration: none;
+  }
+  .touch:hover{
+    box-shadow: #1f1209;
+    cursor: pointer;
+    opacity: 0.6;
+  }
+  .footer{
+    background-color: rgba(212, 139, 55, 0.881);
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .footer-title{
+    color: white; 
+    font-weight: 550;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+  }
+  .facebook-logo{
+    width: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .facebook-logo:hover{
+    background-color: rgba(145, 255, 0, 0.693);
+    
+    transition: background-color 0.4s;
+  }
+  .instagram-logo{
+    width: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .instagram-logo:hover{
+    background-color: rgba(145, 255, 0, 0.693);
+    transition: background-color 0.4s;
+
+  }
+  .whatsapp-logo {
+    width: 45px;
+    cursor: pointer;
+    border-radius: 17px;
+  }
+  .whatsapp-logo:hover{
+    background-color: rgba(145, 255, 0, 0.693);
+    transition: background-color 0.4s;
+  }
+  

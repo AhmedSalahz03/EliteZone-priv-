@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    
+	<link rel="stylesheet" href="login.css">
+</head>
+<body>
+	<div class="container">
+		<div class="card">
+			<div class="card-header">
+				<h3>Login</h3>
+			</div>
+			<div class="card-body">
+				<form id="login-form">
+					<div class="form-group">
+						<label for="password" class="title">Password</label>
+						<input type="password" id="password" name="password" placeholder="Enter Password" required>
+						<div id="password-error" class="error"></div>
+					</div>
+					<button type="submit">Login</button>
+				</form>
+			</div>
+		</div>
+	</div>
+    <script src="login.js"></script>	
+</body>
+</html>
