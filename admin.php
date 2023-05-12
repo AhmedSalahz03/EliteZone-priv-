@@ -42,7 +42,7 @@
                 <?php
                 require 'vendor/autoload.php';
                 // Connect to MongoDB
-                $mongoClient = new MongoDB\Client('mongodb://ahmed:password@localhost:27017/?authMechanism=SCRAM-SHA-256&authSource=comments');
+                $mongoClient = new MongoDB\Client('mongodb://ahmed:password@192.168.1.114:27017/?authMechanism=SCRAM-SHA-256&authSource=comments');
                 $collection = $mongoClient->comments->comments;
             
                 // Fetch comments from the database
