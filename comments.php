@@ -9,8 +9,7 @@ if(isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] == 'POST') {
     $email = $_POST['email'];
     $time = $_POST['time'];
 
-    $mongo = new MongoDB\Client('mongodb://ahmed:password@192.168.1.102:27017/?authMechanism=SCRAM-SHA-256&authSource=comments');
-
+    $mongoClient = new MongoDB\Client('mongodb://ahmed:password@192.168.1.102:27017/?authMechanism=SCRAM-SHA-256&authSource=comments');
     $collection = $mongo->comments->comments;
     
     $insertOneResult = $collection->insertOne([
