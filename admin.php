@@ -42,7 +42,7 @@
                 <?php
                 require 'vendor/autoload.php';
                 // Connect to MongoDB
-                $mongoClient = new MongoDB\Client('mongodb+srv://ahmedfighter1990:XoD7n9IBUYwpkrfa@ahmedcluster.kmzemsr.mongodb.net/?retryWrites=true&w=majority');
+                $mongoClient = new MongoDB\Client('mongodb+srv://ahmedfighter1990:XoD7n9IBUYwpkrfa@ahmedcluster.kmzemsr.mongodb.net/');
                 $collection = $mongoClient->comments->comments;
             
                 // Fetch comments from the database

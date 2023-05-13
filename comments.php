@@ -8,7 +8,7 @@ if(isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] == 'POST') {
     $mobile = $_POST['mobile'];
     $email = $_POST['email'];
     $time = $_POST['time'];
-    $uri = 'mongodb+srv://ahmedfighter1990:XoD7n9IBUYwpkrfa@ahmedcluster.kmzemsr.mongodb.net/?retryWrites=true&w=majority';
+    $uri = 'mongodb+srv://ahmedfighter1990:XoD7n9IBUYwpkrfa@ahmedcluster.kmzemsr.mongodb.net/';
     $mongo = new MongoDB\Client($uri);
 
     $collection = $mongo->comments->comments;
