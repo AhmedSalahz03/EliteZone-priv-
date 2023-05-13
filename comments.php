@@ -8,8 +8,8 @@ if(isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] == 'POST') {
     $mobile = $_POST['mobile'];
     $email = $_POST['email'];
     $time = $_POST['time'];
-
-    $mongo = new MongoDB\Client('mongodb://ahmed:password@192.168.1.114:27017/?authMechanism=SCRAM-SHA-256&authSource=comments');
+    $uri = 'mongodb+srv://ahmedfighter1990:XoD7n9IBUYwpkrfa@ahmedcluster.kmzemsr.mongodb.net/?retryWrites=true&w=majority';
+    $mongo = new MongoDB\Client($uri);
 
     $collection = $mongo->comments->comments;
     
