@@ -9,7 +9,7 @@ if(isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] == 'POST') {
     $email = $_POST['email'];
     $time = $_POST['time'];
 
-    $mongo = new MongoDB\Client('mongodb://ahmed:password@192.168.1.114:27017/?authMechanism=SCRAM-SHA-256&authSource=comments');
+    $mongo = new MongoDB\Client('mongodb+srv://ahmedfighter1990:XoD7n9IBUYwpkrfa@ahmedcluster.kmzemsr.mongodb.net/');
 
     $collection = $mongo->comments->comments;
     
