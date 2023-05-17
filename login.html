@@ -18,10 +18,10 @@
 				<h3>Login</h3>
 			</div>
 			<div class="card-body">
-				<form id="login-form">
+				<form id="loginForm">
 					<div class="form-group">
 						<label for="password" class="title">Password</label>
-						<input type="password" id="password" name="password" placeholder="Enter Password" required>
+						<input type="password" id="passwordInput" name="password" placeholder="Enter Password" required>
 						<div id="password-error" class="error"></div>
 					</div>
 					<button type="submit">Login</button>
@@ -30,5 +30,20 @@
 		</div>
 	</div>
     <script src="login.js"></script>	
+	<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+	<script>
+		// Initialize Firebase
+		var firebaseConfig = {
+			apiKey: "AIzaSyB-CZUiFbbdikZO3cvdzENrR4LvIhsIHPM",
+			authDomain: "elitezone-b3f9b.firebaseapp.com",
+			projectId: "elitezone-b3f9b",
+		};
+		firebase.initializeApp(firebaseConfig);
+
+		// Call the function
+		handleFormSubmission();
+	</script>
+
 </body>
 </html>

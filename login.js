@@ -1,22 +1,30 @@
-const DEFAULT_PASSWORD = '12345678';
 
-// Get the login form and password input
-const loginForm = document.getElementById('login-form');
-const passwordInput = document.getElementById('password');
+  // Function to handle form submission
+  function handleFormSubmission() {
+    var loginForm = document.getElementById('loginForm');
+    loginForm.addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent form from being submitted
+  
+      var passwordInput = document.getElementById('passwordInput');
+      var password = passwordInput.value;
+  
+      // Authenticate with Firebase using the provided password
+      firebase.auth().signInWithEmailAndPassword('admin@example.com', password)
+        .then(function(userCredential) {
+          // Authentication successful, redirect to admin page
+          window.location.href = 'admin.php';
+        })
+        .catch(function(error) {
+          // Handle authentication error
+          console.error(error);
+          alert('Invalid password');
+        });
+    });
+  }
+  
+  // Call the functions
+  initializeFirebase();
+  handleFormSubmission();
+  
 
-// Add an event listener for the login form submission
-loginForm.addEventListener('submit', function(event) {
-    event.preventDefault();
 
-    // Get the entered password
-    const enteredPassword = passwordInput.value;
-
-    // Check if the entered password matches the default password
-    if (enteredPassword === DEFAULT_PASSWORD) {
-        // Redirect to the admin page
-        window.location.replace('admin.php');
-    } else {
-        // Show an error message
-        document.getElementById('password-error').innerHTML = 'Incorrect password';
-    }
-});

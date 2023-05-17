@@ -12,13 +12,10 @@
 <body>
   <!-- Sidebar -->
   <nav class="navbar navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Admin Page</a>
+    <a class="navbar-brand" href="admin.php">Admin Page</a>
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link active" href="admin.html">Comments</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="images.html">Images</a>
+        <a class="nav-link active" href="admin.php">Comments</a>
       </li>
     </ul>
   </nav>
